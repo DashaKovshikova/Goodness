@@ -1,0 +1,639 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+input:focus,
+button:focus {
+  outline: none;
+}
+@font-face {
+  font-family: 'Myriad Pro Condensed';
+  src: local('Myriad Pro Condensed Regular'), local('Myriad-Pro-Condensed-Regular'), url('MyriadPro-Cond.woff2') format('woff2'), url('MyriadPro-Cond.woff') format('woff'), url('MyriadPro-Cond.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: Myriad Pro Condensed;
+  overflow-x: hidden;
+  background-color: white;
+}
+body div.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
+body section.display_1 {
+  overflow: hidden;
+  background: url('img/display_1/fon.jpg') 100% no-repeat;
+  background-size: cover;
+  height: 880px;
+}
+body section.display_1 div.title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 142px;
+}
+body section.display_1 div.title div.logo {
+  padding-top: 167px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 170px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ff0044;
+}
+body section.display_1 div.title div.decrlogo {
+  font-size: 24.8px;
+  position: absolute;
+  top: 340px;
+  left: 209px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: -0.06em;
+  color: #989898;
+}
+body section.display_1 div.descrtitle div.one p {
+  font-size: 51.6px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #505b67;
+  margin-bottom: 39px;
+}
+body section.display_1 div.descrtitle div.two p {
+  font-size: 34.6px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #2cbd92;
+}
+body section.display_2 {
+  overflow: hidden;
+  background-color: #fcd02c;
+}
+body section.display_2 div.title {
+  font-size: 24.8px;
+  text-align: center;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #505b67;
+  padding-top: 72px;
+  margin-bottom: 23px;
+}
+body section.display_2 div.inputBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+body section.display_2 div.inputBtn div.inp {
+  margin-bottom: 50px;
+}
+body section.display_2 div.inputBtn div.inp input {
+  width: 597px;
+  height: 60px;
+  font-size: 24.8px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #505b67;
+  border: none;
+  border-radius: 50px;
+  padding: 0 175px 0 30px;
+}
+body section.display_2 div.inputBtn div.btn {
+  position: absolute;
+  top: 0px;
+  right: 184px;
+  transition: all 300ms ease-in-out;
+}
+body section.display_2 div.inputBtn div.btn button {
+  font-size: 24.8px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+  border: none;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: #ff0044;
+  width: 145px;
+  height: 60px;
+}
+body section.display_2 div.inputBtn div.btn button:hover {
+  cursor: pointer;
+  background-color: #fe3b6f;
+}
+body section.display_2 div.inputBtn div.btn:hover {
+  right: 178px;
+  transition: all 300ms ease-in-out;
+}
+body section.display_3 {
+  background: url(img/display_3/fon.jpg) 100% no-repeat;
+  background-size: cover;
+  margin-bottom: 90px;
+  overflow: hidden;
+}
+body section.display_3 div.container {
+  position: relative;
+  display: flex;
+  height: 750px;
+  align-items: center;
+}
+body section.display_3 div.container div.cont_box div.boxs {
+  display: flex;
+}
+body section.display_3 div.container div.cont_box div.boxs div.one,
+body section.display_3 div.container div.cont_box div.boxs div.two,
+body section.display_3 div.container div.cont_box div.boxs div.three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 383px;
+  height: 298px;
+  background-color: #ffffff;
+  border: 1px solid #e9e9e9;
+}
+body section.display_3 div.container div.cont_box div.boxs div.one div.imggg,
+body section.display_3 div.container div.cont_box div.boxs div.two div.imggg,
+body section.display_3 div.container div.cont_box div.boxs div.three div.imggg {
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+  background-color: #e9e9e9;
+  margin-bottom: 33px;
+}
+body section.display_3 div.container div.cont_box div.boxs div.one div.title,
+body section.display_3 div.container div.cont_box div.boxs div.two div.title,
+body section.display_3 div.container div.cont_box div.boxs div.three div.title {
+  font-size: 24.8px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #505b67;
+  margin-bottom: 27px;
+}
+body section.display_3 div.container div.cont_box div.boxs div.one div.descr,
+body section.display_3 div.container div.cont_box div.boxs div.two div.descr,
+body section.display_3 div.container div.cont_box div.boxs div.three div.descr {
+  font-size: 16.8px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #505b67;
+}
+body section.display_3 div.container div.imgs_8 {
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+body section.display_3 div.container div.imgs_9 {
+  position: absolute;
+  top: 145px;
+}
+body section.display_3 div.container div.imgs_5 {
+  position: absolute;
+  top: 140px;
+  left: 96px;
+}
+body section.display_3 div.container div.imgs_7 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+body section.display_3 div.container div.imgs_4 {
+  position: absolute;
+  top: 400px;
+  right: 0;
+}
+body section.display_3 div.container div.imgs_3 {
+  position: absolute;
+  top: 550px;
+  right: 0;
+}
+body section.display_3 div.container div.imgs_2 {
+  position: absolute;
+  top: 645px;
+  right: 62px;
+}
+body section.display_3 div.container div.imgs_1 {
+  position: absolute;
+  right: 86px;
+  top: 500px;
+}
+body section.display_3 div.container div.imgs_6 {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+}
+body section.display_4 div.cont_4 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: flex-end;
+}
+body section.display_4 div.cont_4 div.left_p {
+  position: absolute;
+  top: -310px;
+  left: -128px;
+  z-index: 9;
+}
+body section.display_4 div.cont_4 div.right_p {
+  width: 50%;
+  margin-bottom: 90px;
+}
+body section.display_4 div.cont_4 div.right_p div.title div.maintitle h5 {
+  font-size: 43.7px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #505b67;
+  margin-bottom: 30px;
+}
+body section.display_4 div.cont_4 div.right_p div.title div.desc_title p {
+  font-size: 24.6px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #2cbd92;
+  margin-bottom: 33px;
+}
+body section.display_4 div.cont_4 div.right_p div.descr p.one {
+  font-size: 28.5px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #505b67;
+  margin-bottom: 96px;
+}
+body section.display_4 div.cont_4 div.right_p div.descr p.two {
+  font-size: 26.9px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #505b67;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+body section.display_4 div.cont_4 div.right_p div.testi {
+  display: flex;
+  align-items: center;
+}
+body section.display_4 div.cont_4 div.right_p div.testi div.name_author p {
+  font-size: 21.6px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ff1653;
+  margin-left: 23px;
+}
+body section.display_5 {
+  overflow: hidden;
+}
+body section.display_5 div.img_video {
+  position: relative;
+}
+body section.display_5 div.img_video div.btn_video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 7px solid white;
+  border-radius: 100%;
+  width: 170px;
+  height: 170px;
+  line-height: 235px;
+  text-align: center;
+  justify-content: center;
+}
+body section.display_5 div.img_video div.btn_video a {
+  color: white;
+  text-decoration: none;
+}
+body section.display_5 div.img_video div.btn_video a:hover {
+  opacity: 0.5;
+}
+body section.display_5 div.img_video div.btn_video a i {
+  font-size: 100px;
+  padding-left: 10px;
+}
+body section.display_5 div.img_video div.btn_video:hover {
+  opacity: 0.5;
+}
+body section.display_6 {
+  overflow: hidden;
+  background-color: #fcd02c;
+}
+body section.display_6 div.container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 97px;
+}
+body section.display_6 div.container div.parth_right {
+  width: 50%;
+  position: relative;
+  top: 100px;
+}
+body section.display_6 div.container div.parth_left {
+  width: 50%;
+  text-align: center;
+}
+body section.display_6 div.container div.parth_left div.title {
+  font-size: 90.3px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+  padding-top: 150px;
+  margin-bottom: 61px;
+}
+body section.display_6 div.container div.parth_left div.pichi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 138px;
+}
+body section.display_6 div.container div.parth_left div.pichi div.picha_one {
+  margin-right: 23px;
+}
+body section.display_6 div.container div.parth_left div.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body section.display_6 div.container div.parth_left div.contacts div {
+  margin: 0 20px;
+}
+body section.display_6 div.container div.parth_left div.contacts div i {
+  font-size: 35px;
+  color: rgba(255, 255, 255, 0.6);
+}
+body section.display_6 div.container div.parth_left div.contacts div i:hover {
+  cursor: pointer;
+  color: white;
+}
+@media screen and (max-width: 1024px) {
+  body div.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  body section.display_1 {
+    background: url(img/display_1/fon.jpg) 80% no-repeat;
+  }
+  body section.display_1 div.title div.logo {
+    padding-top: 232px;
+    font-size: 100px;
+  }
+  body section.display_1 div.title div.decrlogo {
+    font-size: 19.8px;
+    top: 332px;
+    left: 112px;
+  }
+  body section.display_1 div.title {
+    margin-bottom: 75px;
+  }
+  body section.display_1 div.descrtitle div.one p {
+    font-size: 32.6px;
+    margin-bottom: 35px;
+  }
+  body section.display_1 div.descrtitle div.two p {
+    font-size: 26.6px;
+  }
+  body section.display_2 div.inputBtn div.inp input {
+    width: 227px;
+  }
+  body section.display_2 div.inputBtn div.btn button {
+    width: 120px;
+  }
+  body section.display_3 {
+    background: url(img/display_3/fon.jpg) 80% no-repeat;
+  }
+  body section.display_3 div.container div.imgs_6 {
+    z-index: -1;
+  }
+  body section.display_4 div.cont_4 div.left_p {
+    top: -342px;
+    left: -10px;
+  }
+  body section.display_5 div.img_video img {
+    width: 100%;
+  }
+  body section.display_5 div.img_video div.btn_video {
+    top: 42%;
+    left: 44%;
+    width: 132px;
+    height: 132px;
+    line-height: 175px;
+  }
+  body section.display_5 div.img_video div.btn_video a i {
+    font-size: 70px;
+  }
+  body section.display_6 div.container div.parth_left div.title {
+    font-size: 69.3px;
+    padding-top: 54px;
+    margin-bottom: 30px;
+  }
+  body section.display_6 div.container div.parth_left {
+    margin-left: 40px;
+  }
+  body section.display_6 div.container div.parth_right img {
+    width: 100%;
+  }
+  body section.display_6 div.container div.parth_left div.pichi div.picha_one {
+    margin: 0;
+  }
+  body section.display_6 div.container div.parth_left div.pichi div.picha_one img {
+    width: 80%;
+  }
+  body section.display_6 div.container div.parth_left div.pichi div.picha_two img {
+    width: 80%;
+  }
+  body section.display_6 div.container div.parth_left div.pichi {
+    margin-bottom: 41px;
+  }
+  body section.display_6 div.container {
+    padding-bottom: 66px;
+    position: relative;
+  }
+  body section.display_4 div.cont_4 div.left_p div.apple img {
+    width: 80%;
+  }
+  body section.display_4 div.cont_4 div.right_p div.descr p.one {
+    margin-bottom: 55px;
+  }
+  body section.display_4 div.cont_4 div.right_p div.descr p.two {
+    font-size: 20.9px;
+  }
+  body section.display_4 div.cont_4 div.right_p div.descr p.one {
+    font-size: 22.5px;
+  }
+  body section.display_4 div.cont_4 div.right_p div.title div.desc_title p {
+    font-size: 18.6px;
+    margin-bottom: 25px;
+  }
+  body section.display_4 div.cont_4 div.right_p div.title div.maintitle h5 {
+    font-size: 37.7px;
+    margin-bottom: 22px;
+  }
+  body section.display_6 div.container div.parth_right {
+    position: absolute;
+    top: 109px;
+    bottom: 0;
+    right: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  body div.wrapper {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  body section.display_1 {
+    background: url(img/display_1/fon.jpg) 75% no-repeat;
+  }
+  body section.display_2 div.inputBtn div.inp input {
+    width: 146px;
+    font-size: 20.8px;
+  }
+  body section.display_2 div.inputBtn div.btn button {
+    width: 90px;
+    font-size: 18.8px;
+  }
+  body section.display_3 {
+    background: none;
+  }
+  body section.display_3 div.container div.imgs_6 {
+    display: none;
+  }
+  body section.display_3 div.container div.imgs_7 {
+    right: -53px;
+  }
+  body section.display_3 div.container div.imgs_7 div img {
+    width: 81%;
+  }
+  body section.display_4 div.cont_4 div.left_p div.apple img {
+    width: 65%;
+  }
+  body section.display_4 div.cont_4 div.left_p {
+    top: -155px;
+    left: 0px;
+  }
+  body section.display_5 div.img_video div.btn_video {
+    top: 33%;
+  }
+  body section.display_6 div.container div.parth_right {
+    top: auto;
+  }
+}
+@media screen and (max-width: 414px) {
+  body div.wrapper {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
